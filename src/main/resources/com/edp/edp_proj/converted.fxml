@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.edp.edp_proj.Controller_CONVERTED">
+   <left>
+      <AnchorPane prefHeight="447.0" prefWidth="228.0" style="-fx-background-color: orange;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="53.0" layoutY="23.0" text="Conversion" textFill="WHITE">
+               <font>
+                  <Font name="Arial Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="70.0" text="App" textFill="WHITE">
+               <font>
+                  <Font name="Arial Italic" size="24.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="114.0" layoutY="61.0" startX="-100.0" stroke="#fffdfd" strokeWidth="3.0" />
+            <Ellipse fill="#ffaa1f" layoutX="114.0" layoutY="186.0" radiusX="88.0" radiusY="47.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+            <Label layoutX="78.0" layoutY="172.0" text="Wyniki" textFill="WHITE">
+               <font>
+                  <Font name="Arial Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="72.0" layoutY="306.0" text="Projekt EDP " textFill="WHITE">
+               <font>
+                  <Font name="Arial Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="67.0" layoutY="335.0" text="Kozieniec Filip" textFill="WHITE">
+               <font>
+                  <Font name="Arial Italic" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="338.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="returnButton2" layoutX="129.0" layoutY="340.0" mnemonicParsing="false" onAction="#goToMenu" style="-fx-background-color: orange;" text="Powrót" textFill="WHITE">
+               <font>
+                  <Font name="Arial Italic" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="Input" layoutX="14.0" layoutY="59.0" textFill="ORANGE">
+               <font>
+                  <Font name="Arial Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="equals" layoutX="129.0" layoutY="127.0" textFill="ORANGE">
+               <font>
+                  <Font name="Arial Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="Output" layoutX="4.0" layoutY="172.0" textFill="ORANGE">
+               <font>
+                  <Font name="Arial Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="info" layoutX="14.0" layoutY="273.0" text=" " textFill="ORANGE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font></Label>
+            <Label fx:id="status" layoutX="18.0" layoutY="5.0" text="Connecting with database..." />
+            <Label fx:id="APIconnection" layoutX="19.0" layoutY="23.0" text="Connecting with API..." />
+         </children></AnchorPane>
+   </right>
+</BorderPane>
