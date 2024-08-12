@@ -1,18 +1,18 @@
 Deployed technologies:
-Java FX
-MySQL database with JDBC Interface
+1) Java FX
+2) MySQL database with JDBC Interface
 
 Libraries and dependencies:
-Open JFX
-JSON Simple
-MySQL Connector
-Guava Event Bus
-Apache Commons bundle
+1) Open JFX
+2) JSON Simple
+3) MySQL Connector
+4) Guava Event Bus
+5) Apache Commons bundle
 
 Used Design Patterns:
-Singleton (a singular class instance is used for communcation between other classes)
-Interpreter ( evaluation of natural language for validation purposes)
-Publisher-Subscriber (Event Bus is used to facilitate commnication between publisher and subscriber)
+1) Singleton (a singular class instance is used for communcation between other classes)
+2) Interpreter ( evaluation of natural language for validation purposes)
+3) Publisher-Subscriber (Event Bus is used to facilitate commnication between publisher and subscriber)
 
 Usage example:
 ![image](https://github.com/user-attachments/assets/7c4e8ee9-f4c6-44f8-9821-767f8b5a34aa)
